@@ -1,0 +1,52 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+<h1>site.categories is: {{ site.categories }}</h1>
+{% for category in site.categories %}
+  <h1>key is: {{ category[0] }}</h1> <!-- key is the category name -->
+  <h1>value is: {{ category[1] }}</h1> <!-- value is the post **content** -->
+  <h1>
+    {% raw %}
+      {{ category | first }} is:
+    {% endraw %}
+    {{ category | first }} <!-- same as category[0] -->
+  </h1>
+  <h1>
+    {% raw %}
+      {{ category | last }} is:
+    {% endraw %}
+    {{ category | last }} <!-- same as category[1] -->
+  </h1>
+
+  <h1>category[1][0] is: {{ category[1][0] }}</h1>
+  {% for el in category[1] %}
+    <h1>el is: {{ el }}</h1>
+  {% endfor %}
+{% endfor %}
+
+{% comment %}
+{% for category in site.categories %}
+  <li>
+    {{ category | first }}
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        <!--
+          http://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category#comment33913326_20872918
+        -->
+        {% if post.url %}
+          <li>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </li>
+          {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+{% endcomment %}
