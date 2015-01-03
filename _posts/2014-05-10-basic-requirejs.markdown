@@ -3,10 +3,7 @@ layout: post
 title: "Basic RequireJS"
 date: 2014-05-10 16:24:01 -0400
 comments: true
-categories: javascript, requirejs
-tags:
-  - "javascript"
-  - "requirejs"
+categories: "javascript requirejs"
 ---
 
 I came across [`requirejs`](http://requirejs.org/) the other day. It is a great
