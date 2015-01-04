@@ -2,12 +2,13 @@
 
 ## Table of Contents
 
-1. [Introduction](i-introduction)
-2. [Code Highlighting](ii-code-highlighting)
-3. [Making a New Page](iii-making-a-new-page)
-4. [Making a New Post](iv-making-a-new-post)
-5. [Important Variables and Their Structure](v-important-variables-and-their-structure)
-6. [Adding Javascript Libraries](vi-adding-javascript-libraries)
+1. [Introduction](#i-introduction)
+2. [Code Highlighting](#ii-code-highlighting)
+3. [Making a New Page](#iii-making-a-new-page)
+4. [Making a New Post](#iv-making-a-new-post)
+5. [Important Variables and Their Structure](#v-important-variables-and-their-structure)
+6. [Adding Javascript Libraries](#vi-adding-javascript-libraries)
+7. [FAQ](#faq)
 
 ## I. Introduction
 
@@ -155,3 +156,12 @@ It's not unsual for sites to have javascript libraries. For it to be used in
 
 2. Add any javascript libraries to the above directory
 3. Include the library in [`head.html`](_includes/head.html)
+
+## FAQ
+
+1. What is the difference between `categroy` and `tag`
+
+    In short, setting a `category` affects the URL of a post; while setting
+    `tag`s have no effect on the URL at all.
+
+    The answer in details is [here](http://stackoverflow.com/a/8710254)
