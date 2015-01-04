@@ -4,6 +4,8 @@ title: "What ports are Open?"
 date: 2013-03-16 22:50
 comments: true
 categories: linux
+tags:
+  - linux
 ---
 
 I'll be the first to admit `iptables` are like black magic to me. May be one day

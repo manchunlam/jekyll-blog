@@ -4,6 +4,9 @@ title: "CentOS Setup (Part VI) - Build vim from Source"
 date: 2014-05-03 11:13:35 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 We will compile vim from source because the stock vim in repos doesn't have

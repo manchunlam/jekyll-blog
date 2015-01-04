@@ -4,6 +4,8 @@ title: "Bash: Lesson of Quotes"
 date: 2013-02-17 01:38
 comments: false
 categories: shell
+tags:
+  - shell
 ---
 
 ## Double Quotes

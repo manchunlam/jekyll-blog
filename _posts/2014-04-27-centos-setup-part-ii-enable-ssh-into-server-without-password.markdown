@@ -4,6 +4,9 @@ title: "CentOS Setup (Part II) - Enable SSH into Server without Password"
 date: 2014-04-27 20:18:30 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 Log in as whoever (with `sudo` privilege) you want to give access to.

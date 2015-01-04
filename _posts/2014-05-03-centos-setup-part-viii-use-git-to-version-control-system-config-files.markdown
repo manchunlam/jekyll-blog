@@ -4,6 +4,9 @@ title: "CentOS Setup (Part VIII) - Use git for System Config Files"
 date: 2014-05-03 11:21:49 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 Anyone will get tired of redo-ing common config files all the time. A trick I

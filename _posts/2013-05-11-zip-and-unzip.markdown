@@ -4,6 +4,8 @@ title: "zip and unzip"
 date: 2013-05-11 22:17
 comments: true
 categories: linux
+tags:
+  - linux
 ---
 
 To `unzip` an archive to a directory, and create that directory

@@ -5,9 +5,63 @@
   list-style: none;
   padding: 0;
   text-align: justify;
-  font-size: 20px;
+
+  li {
+    display: inline-block;
+    margin: 0 25px 25px 0;
+  }
+
+  a {
+    padding: 3px 6px;
+    margin: 2px;
+    background: #eee;
+    color: #555;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px dashed #cccccc;
+
+    span {
+      vertical-align: super;
+      font-size: 0.8em;
+    }
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
+
+    &.active {
+      background: #57A957;
+      border: 1px solid #4c964d;
+      color: #FFF;
+    }
+  }
 }
-.tags li {
-  display: inline-block;
-  margin: 0 25px 25px 0;
+
+.tag-cloud {
+  span {
+    /* tag cloud */
+    &.tag-cloud-0 { font-size: 1em; }
+    &.tag-cloud-1 { font-size: 1.5em; }
+    &.tag-cloud-2 { font-size: 1.5em; font-weight: bold; }
+    &.tag-cloud-3 { font-size: 2em; }
+    &.tag-cloud-4 { font-size: 2em; font-weight: bold; }
+    &.tag-cloud-5 { font-size: 2.5em; }
+    &.tag-cloud-6 { font-size: 2.5em; font-weight: bold; }
+    &.tag-cloud-7 { font-size: 2.75em; }
+    &.tag-cloud-8 { font-size: 2.75em; font-weight: bold; }
+    &.tag-cloud-9 {
+      font-size: 2.75em;
+      font-weight: bold;
+      font-style: italic;
+    }
+    &.tag-cloud-10 { font-size: 3em; }
+    /* end tag cloud */
+  }
+}
+
+.tag-posts {
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }

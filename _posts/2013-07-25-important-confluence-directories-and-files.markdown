@@ -4,11 +4,13 @@ title: "Confluence Directories and Files"
 date: 2013-07-25 17:40
 comments: true
 categories: confluence
+tags:
+  - confluence
 ---
 
 I can never remember what the `<confluence-install>` and `<conflunce-home>`
 directories are. I'm going to write this down because I'm getting really tired
-of googling it every time. 
+of googling it every time.
 
 |name|location|
 |-----|-----|

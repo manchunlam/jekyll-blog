@@ -3,7 +3,9 @@ layout: post
 title: "bundler config File"
 date: 2013-03-16 22:22
 comments: false
-categories: [bundler, rails]
+categories: bundler
+tags:
+  - bundler
 ---
 
 I can never remember what keys to set in `.bundle/config`, this

@@ -3,7 +3,11 @@ layout: post
 title: "Install Virtual Box Guest Additions"
 date: 2014-01-11 21:58:46 -0500
 comments: true
-categories: centos virtual-box
+categories: virtual-box
+tags:
+  - virtual-box
+  - centos
+  - linux
 ---
 
 Virtual Box provides some pretty awesome features to the guest OS, like

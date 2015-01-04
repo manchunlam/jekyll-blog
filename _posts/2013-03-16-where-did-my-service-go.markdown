@@ -4,6 +4,9 @@ title: "Where did My Service Go?"
 date: 2013-03-16 22:27
 comments: false
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 If I had asked myself whether a service is up and running before I dive in,

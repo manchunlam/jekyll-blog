@@ -4,6 +4,9 @@ title: "Get Me the GNOME"
 date: 2014-01-11 21:53:04 -0500
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 Sometimes we want a GUI in Linux. However, most of the time we didn't know if

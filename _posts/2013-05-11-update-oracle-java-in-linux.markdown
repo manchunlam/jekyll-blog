@@ -3,7 +3,10 @@ layout: post
 title: "Install/Update Oracle Java in Linux"
 date: 2013-05-11 22:41
 comments: true
-categories: [linux, java]
+categories: java
+tags:
+  - linux
+  - java
 ---
 
 Installing Java on CentOS is not as easy as a Windows installer, but it gives
@@ -16,7 +19,8 @@ us flexibility to have multiple Java on the same server.
 2. Upload the tar-ball to the server
 
     ```sh
-    scp ~/Downloads/jdk-7u55-linux-x64.tar.gz someuser@some-server.com:/home/someuser/tmp
+    scp ~/Downloads/jdk-7u55-linux-x64.tar.gz \
+      someuser@some-server.com:/home/someuser/tmp
     ```
 
 3. Log in as `root`, move the tar-ball to `/opt`

@@ -2,6 +2,13 @@
 
 ## Table of Contents
 
+1. [Introduction](i-introduction)
+2. [Code Highlighting](ii-code-highlighting)
+3. [Making a New Page](iii-making-a-new-page)
+4. [Making a New Post](iv-making-a-new-post)
+5. [Important Variables and Their Structure](v-important-variables-and-their-structure)
+6. [Adding Javascript Libraries](vi-adding-javascript-libraries)
+
 ## I. Introduction
 
 This article documents all my notes on using and developing with `jekyll`
@@ -26,7 +33,8 @@ To achieve this, I did
 3. Add `redcarpet` and `pygments.rb` gems to `Gemfile`
 4. Use a _plugin_ to override the default code-block processor
 
-    The plugin is in [`_plugins`](jekyll/converters/markdown/redcarpet_markdown.rb).
+    The plugin is in [`_plugins`]
+    (_plugins/jekyll/converters/markdown/redcarpet_markdown.rb).
 
     When compared to the [default]
     (https://github.com/jekyll/jekyll/blob/v2.5.3/lib/jekyll/converters/markdown/redcarpet_parser.rb#L16-L23)
@@ -84,7 +92,51 @@ An example will be `2014-12-30-my-awesome-blog-post.markdown`
         "#{category_name_02}" => [<Post :title, :url>] }
     ```
 
+    **Note**:
+
     See [`categories/index.html`](categories/index.html) on how it's used.
+
+    You can use the following to get all posts with the `category` `foobar`
+
+    ```ruby
+    site.categories['foobar']
+    ```
+
+2. `site.tags`
+
+    ```ruby
+    { "#{tag_name_01}" => [<Post :title, :url>, <Post :title, :url>] }
+    ```
+
+    To get all posts with the `tag` `foo`
+
+    ```ruby
+    site.tags['foo']
+    ```
+
+    Please see [`_includes/tag_cloud.html`](_includes/tag_cloud.html) and
+    [`tags.html`](tags.html).
+
+3. `page.tags`
+
+    The current `page` is a _Post_, then this will return an array of tag
+    **name**s, as specified in the front-matter of the post.
+
+    With this front-matter,
+
+    ```text
+    ---
+    tags:
+      - foo
+      - bar
+    ---
+    ```
+
+    `page.tags` returns
+
+    ```
+    ["foo", "bar"]
+    ```
 
 ## VI. Adding Javascript Libraries
 

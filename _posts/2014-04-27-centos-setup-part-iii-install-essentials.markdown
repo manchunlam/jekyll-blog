@@ -4,6 +4,9 @@ title: "CentOS Setup (Part III) - Install Essentials"
 date: 2014-04-27 20:47:27 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 You must be `root`. We will installing 2 extra repos, `epel`, and `remi`. These

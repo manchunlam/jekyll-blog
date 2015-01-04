@@ -4,6 +4,9 @@ title: "CentOS Setup (Part VII) - Build apache from Source"
 date: 2014-05-03 11:17:38 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 We will install from Apache source to get the latest 2.4.x version.

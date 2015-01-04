@@ -4,6 +4,9 @@ title: "CentOS Setup (Part IX) - Configure apache"
 date: 2014-05-03 11:25:39 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 You should log in as `root`.

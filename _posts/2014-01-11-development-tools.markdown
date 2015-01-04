@@ -4,6 +4,9 @@ title: "Development Tools"
 date: 2014-01-11 21:47:47 -0500
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 To build anything in Linux, you need `make`, `autoconf`, etc. To get them, we

@@ -1,3 +1,24 @@
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: 51951c43e823294ebc848eaaa8840d65b919e2fb
+  branch: master
+  specs:
+    jekyll (2.5.3)
+      classifier-reborn (~> 2.0)
+      colorator (~> 0.1)
+      jekyll-coffeescript (~> 1.0)
+      jekyll-gist (~> 1.0)
+      jekyll-paginate (~> 1.0)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 3.0)
+      mercenary (~> 0.3.3)
+      pygments.rb (~> 0.6.0)
+      redcarpet (~> 3.1)
+      safe_yaml (~> 1.0)
+      toml (~> 0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,21 +36,6 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
-    jekyll (2.5.3)
-      classifier-reborn (~> 2.0)
-      colorator (~> 0.1)
-      jekyll-coffeescript (~> 1.0)
-      jekyll-gist (~> 1.0)
-      jekyll-paginate (~> 1.0)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 2.6.1)
-      mercenary (~> 0.3.3)
-      pygments.rb (~> 0.6.0)
-      redcarpet (~> 3.1)
-      safe_yaml (~> 1.0)
-      toml (~> 0.1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
@@ -39,7 +45,7 @@ GEM
     jekyll-watch (1.2.0)
       listen (~> 2.7)
     kramdown (1.5.0)
-    liquid (2.6.1)
+    liquid (3.0.0)
     listen (2.8.4)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -67,6 +73,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 2.5.3)
+  jekyll!
   pygments.rb (~> 0.6.0)
   redcarpet (~> 3.2.2)

@@ -4,6 +4,9 @@ title: "CentOS Setup (Part I) - Add User with sudo Privilege"
 date: 2014-04-27 20:08:16 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 You must be `root`.

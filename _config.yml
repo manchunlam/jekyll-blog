@@ -16,3 +16,7 @@ redcarpet:
     - "tables"
     - "no_intra_emphasis"
 highlighter: "pygments"
+
+exclude:
+  - ".bundle"
+  - "bin"

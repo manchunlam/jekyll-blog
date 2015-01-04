@@ -4,6 +4,9 @@ title: "Centos Minimal Network"
 date: 2014-01-11 21:31:32 -0500
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 Centos minimal is small, so it's really quick to spin up a VM with it. The

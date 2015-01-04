@@ -1,0 +1,11 @@
+<div class="tags">
+  {% assign num_of_posts = site.posts | size %}
+  {% for tag_name in page.tags %}
+    {% assign num_of_posts_with_tag = site.tags[tag_name] | size %}
+
+    <a href="{{ site.baseurl }}/tags#{{ tag_name | slugify }}-ref">
+      {{ tag_name }}
+      <span>{{ num_of_posts_with_tag }}</span>
+    </a>
+  {% endfor %}
+</div>

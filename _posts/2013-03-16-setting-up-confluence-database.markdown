@@ -4,6 +4,8 @@ title: "Setting up Confluence Database"
 date: 2013-03-16 22:44
 comments: true
 categories: confluence
+tags:
+  - confluence
 ---
 
 Choosing _Express Install_ makes installing Confluence a breeze. I did have

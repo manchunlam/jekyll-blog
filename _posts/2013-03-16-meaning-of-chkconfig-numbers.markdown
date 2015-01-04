@@ -4,6 +4,9 @@ title: "Meaning of chkconfig Numbers"
 date: 2013-03-16 22:38
 comments: false
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 I always wonder what the numbers after `chkconfig` means.
@@ -14,7 +17,7 @@ I always wonder what the numbers after `chkconfig` means.
 # /etc/init.d/mysystem
 # Subsystem file for "MySystem" server
 #
-# chkconfig: 2345 95 05 
+# chkconfig: 2345 95 05
 # description: MySystem server daemon
 ```
 

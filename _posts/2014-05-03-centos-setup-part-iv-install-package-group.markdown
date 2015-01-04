@@ -4,6 +4,9 @@ title: "CentOS Setup (Part IV) - Install Package Group"
 date: 2014-05-03 10:53:06 -0400
 comments: true
 categories: centos
+tags:
+  - centos
+  - linux
 ---
 
 CentOS provides `group`s, a bunch of related packages. For example, you'd like
