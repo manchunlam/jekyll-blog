@@ -19,7 +19,8 @@ Log in as `root`
 1. Install system-wide ruby, and other languages
 
     ```
-    yum install ruby perl-devel python-devel ruby-devel perl-ExtUtils-Embed ncurses-devel
+    yum groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts" "General Purpose Desktop"
+    yum install ruby perl-devel python-devel ruby-devel perl-ExtUtils-Embed ncurses-devel libX11 libX11-devel libXtst-devl libXtst libXt-devel libXt libSM-devel libSM libXpm libXpm-devel
     ```
 
 1. Install `mercurial` to get vim source from Google Code
@@ -34,7 +35,7 @@ Log in as `root`
 3. Configure vim build
 
     ```
-    ./configure --with-features=huge --enable-perlinterp --enable-rubyinterp --enable-pythoninterp
+    ./configure --with-features=huge --enable-perlinterp --enable-rubyinterp --enable-pythoninterp --with-x=yes --enable-gui=auto --enable-gtk2-check --enable-gnome-check
     ```
 
 4. Build vim
