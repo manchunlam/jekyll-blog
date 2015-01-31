@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 51951c43e823294ebc848eaaa8840d65b919e2fb
+  revision: b100b3b121f8893dda14d591799a9be47c330655
   branch: master
   specs:
-    jekyll (2.5.3)
+    jekyll (3.0.0.pre.beta1)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
@@ -30,7 +30,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.0)
     colorator (0.1)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
@@ -42,11 +42,11 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
-    jekyll-watch (1.2.0)
+    jekyll-watch (1.2.1)
       listen (~> 2.7)
     kramdown (1.5.0)
-    liquid (3.0.0)
-    listen (2.8.4)
+    liquid (3.0.1)
+    listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -54,20 +54,20 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
-    pygments.rb (0.6.0)
+    pygments.rb (0.6.2)
       posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.1.0)
+      yajl-ruby (~> 1.2.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
     safe_yaml (1.0.4)
-    sass (3.4.9)
+    sass (3.4.10)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    yajl-ruby (1.1.0)
+    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby

@@ -2,11 +2,11 @@
 layout: post
 title: "CentOS Setup (Part V) - Install Ruby"
 date: 2014-05-03 10:56:35 -0400
-comments: true
+comments: false
 categories: centos
 tags:
   - centos
-  - tags
+  - ruby
 ---
 
 CentOS comes with Ruby, but it's kind of old. Here, I will show you how to use
