@@ -16,7 +16,9 @@ permalink: /tags/
         {% assign posts = tag[1] %}
 
         <li>
-          <h3 id="{{ tag_name | append: "-ref" }}">{{ tag_name }}</h3>
+          <h3 id="{{ tag_name | downcase | replace: ' ', '-' | append: "-ref" }}">
+            {{ tag_name }}
+          </h3>
           <ul>
             {% for post in posts %}
               <li>
